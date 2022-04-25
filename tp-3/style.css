@@ -1,0 +1,82 @@
+@media  (min-width: 400px){
+    p{
+        font-size: 1.3em;
+    }
+}
+
+@media  (max-width: 400px){
+    h1{
+        text-align: center;
+    }
+}
+
+@media (max-width: 200px){
+    .container{
+        width: 90%;
+    }
+}
+
+@media (max-width: 200px) and (max-width: 400px){
+    .container{
+        width: 80%;
+    }
+}
+
+@media (min-width: 400px){
+    .container{
+        width: 390px;
+    }
+}
+
+@media screen {
+    .container{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media print { 
+    body{
+        background-color: white;
+    }
+}
+body{
+    background-color:#ddccaa;
+}
+@media (color:0){
+    #wikipedia-logo{
+        visibility:hidden;
+        display: none;
+        
+    }
+}
+/* Dispositivos en los cuales funciona el hover son: 
+    Chrome V38, Edge V12, Firefox V64, Opera V28, Safari V9. WebView Android V38, Chrome Android V50
+    Firexfor for Android V64, Opera Android V28, Safari on iOS V9, Samsung Internet V5.0
+
+    Dispositivos en los cuales NO funciona el hover:
+    Internet explorer.
+*/
+@media (hover:hover){
+    blockquote{
+        background-color: #ccddaa;
+    }
+}
+
+@media (aspect-ratio: 1/1){
+    figure {
+        width: 80%;
+        margin: 5px auto;
+        padding: 5px;
+        border: 1px solid #999;
+        border-radius: 10px;
+    }
+}
+
+/* A continuacion se utilizan tres operadores logicos (dos and y un or que es representado por la coma) 
+*/
+@media (min-width: 500px) and (min-height: 600px) , (min-width: 350px) and (min-height: 900px) {
+    body{
+        background-color: rgb(172, 91, 34);
+    }
+}
