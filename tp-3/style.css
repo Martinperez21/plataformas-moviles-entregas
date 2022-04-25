@@ -75,7 +75,7 @@ body{
 
 /* A continuacion se utilizan tres operadores logicos (dos and y un or que es representado por la coma) 
 */
-@media (min-width: 500px) and (min-height: 600px) , (min-width: 350px) and (min-height: 900px) {
+@media (min-width: 3000px) and (min-height: 1000px) , (min-width: 2500px) and (min-height: 1200px) {
     body{
         background-color: rgb(172, 91, 34);
     }
